@@ -6,7 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 .env file and add the following:
 
 REACT_APP_BASE_URL=YOUR_URL
+
 REACT_APP_API_KEY=YOUR_API_KEY
+
 REACT_APP_PRIVATE_KEY=YOUR_PRIVATE_KEY
 
 install `npm install`
