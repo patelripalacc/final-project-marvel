@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer";
 // Import dependencies
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <BrowserRouter>
