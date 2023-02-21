@@ -4,7 +4,7 @@ import NavItem from "./components/Navbar/NavItem";
 import Logo from "./components/Navbar/Logo";
 import HeroDetails from "./components/HeroDetails";
 import Home from "./components/Home";
-import { Footer } from "./components/Footer";
+import Footer from "./components/Footer";
 // Import dependencies
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

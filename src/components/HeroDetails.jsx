@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 // Import useParams from react-router-dom
 import { useParams } from "react-router-dom";
 // import fetchHero from utils
-import { fetchHero } from "../libs/utils";
+import { fetchHero } from "../utilites/utils";
 
 export default function HeroDetails() {
   // gets the id parameter from the URL
@@ -48,6 +48,20 @@ export default function HeroDetails() {
           <h4>Name:</h4>
           {/*  displays hero name */}
           <p>{name}</p>
+          {/* Display comics link */}
+          {hero.data.results[0].urls.find(
+            (url) => url.type === "comiclink"
+          ) && (
+            <>
+              <a className="comics-link"
+                href={
+                  hero.data.results[0].urls.find(
+                    (url) => url.type === "comiclink"
+                  ).url
+                }
+              >==Comics Link==</a>
+            </>
+          )}
           {/*  displays hero description if it exists */}
           {description ? (
             <>

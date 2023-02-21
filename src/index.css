@@ -102,6 +102,13 @@ header {
   animation: fadeIn 0.3s ease-in-out forwards;
   position: relative;
   background-color: #ED1D24;
+  border: 5px solid #ED1D24;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
 }
 .card:hover img {
   transform: scale(1.1);
@@ -182,6 +189,10 @@ header {
   list-style: disc;
   margin-left: 1.5rem;
 }
+.comics-link {
+  color: inherit;
+  font-size: 1.6rem;
+}
 .logo {
   padding-top: 20px;
   width: 530px;
@@ -214,7 +225,8 @@ form.form {
   height: 35px;
   border-radius: 1rem;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 500;
   padding: 1.2rem;
   border: 2px solid #ED1D24;
   text-align: center;
@@ -235,7 +247,7 @@ form.form {
   display: inline-block;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: normal;
   margin: 0;
   outline: none;

@@ -7,7 +7,7 @@ import Container from "./Container";
 import SearchBar from "./SearchBar";
 import Grid from "./Grid";
 import Card from "./Card";
-import { fetchHeros } from "../libs/utils";
+import { fetchHeros } from "../utilites/utils";
 
 // Define a constant for the thumbnail image size
 const IMG_FANTASTIC = "portrait_fantastic";

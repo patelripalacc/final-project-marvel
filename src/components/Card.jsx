@@ -7,7 +7,6 @@ export default function Card({ name, id, thumbnail }) {
       <div className="card">
         <img className="image-url" src={thumbnail} alt="thumbnail" />
         <h1 className="card-name">{name}</h1>
-        <div className="flap" ></div>
       </div>
     </Link>
   );
